@@ -7,7 +7,6 @@ def find_divisor(num):
         return 1
     else:
         return -1
-
 def solution(left, right):
     answer = 0
     for i in range(left, right+1):
